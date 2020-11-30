@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import BadgeComponent from './Container/BadgeComponent';
+import ControlForm from './Container/ControlForm';
+import CharacterCounter from './Container/CharacterCounter'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BadgeComponent/><hr/>
+     <ControlForm/><hr/>
+     <CharacterCounter />
     </div>
   );
 }
