@@ -1,3 +1,7 @@
+# About code
+This code small components that are coded to imrprove the basic react skills,like- how to create a controlled form,
+how to build a reusable component and many more.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
