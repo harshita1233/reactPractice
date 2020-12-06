@@ -1,6 +1,7 @@
 import BadgeComponent from './Container/BadgeComponent';
 import ControlForm from './Container/ControlForm';
-import CharacterCounter from './Container/CharacterCounter'
+import CharacterCounter from './Container/CharacterCounter';
+import EmailSignUp from './Container/EmailSignUp';
 import './App.css';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
      <BadgeComponent/><hr/>
      <ControlForm/><hr/>
-     <CharacterCounter />
+     <CharacterCounter /><hr/>
+     <EmailSignUp/>
     </div>
   );
 }
